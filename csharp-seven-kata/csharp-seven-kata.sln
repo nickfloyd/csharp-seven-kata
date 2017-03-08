@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-seven-kata", "csharp-seven-kata.csproj", "{546485FB-64DA-4F34-B26C-493F93854273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-seven-kata-tests", "..\csharp-seven-kata-tests\csharp-seven-kata-tests.csproj", "{70D9DA06-F8BC-47F0-8359-CE86E8F10251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546485FB-64DA-4F34-B26C-493F93854273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546485FB-64DA-4F34-B26C-493F93854273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546485FB-64DA-4F34-B26C-493F93854273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546485FB-64DA-4F34-B26C-493F93854273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D9DA06-F8BC-47F0-8359-CE86E8F10251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D9DA06-F8BC-47F0-8359-CE86E8F10251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D9DA06-F8BC-47F0-8359-CE86E8F10251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D9DA06-F8BC-47F0-8359-CE86E8F10251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
