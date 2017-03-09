@@ -7,8 +7,9 @@ namespace csharp_seven_kata_tests
     public class LocalReferencesKataTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Validate_Local_References()
         {
+            //TODO
         }
     }
 }

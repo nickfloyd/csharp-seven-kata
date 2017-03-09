@@ -1,5 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using csharp_seven_kata;
 
 namespace csharp_seven_kata_tests
 {
@@ -7,8 +8,20 @@ namespace csharp_seven_kata_tests
     public class ThrowExpressionsKataTests
     {
         [TestMethod]
-        public void TestMethod1()
+        [ExpectedException(typeof(ArgumentNullException), "")]
+        public void Validate_Property_Exception_Throw()
         {
+           var throwExpressionsKata = new ThrowExpressionsKata()
+            {
+                PropertyException = null
+            };
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException), "")]
+        public void Validate_Initialization_Exception_Throw()
+        {
+           var throwExpressionsKata = new ThrowExpressionsKata();
         }
     }
 }

@@ -1,4 +1,4 @@
-using System;
+using csharp_seven_kata;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace csharp_seven_kata_tests
@@ -7,8 +7,11 @@ namespace csharp_seven_kata_tests
     public class ExpressionBodyKataTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Validate_ExpressionBody()
         {
+            var expressionBodyKata = new  ExpressionBodyKata("Something");
+
+            Assert.AreEqual("Something", expressionBodyKata.ExpressionBody);
         }
     }
 }

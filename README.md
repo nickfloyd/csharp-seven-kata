@@ -1,10 +1,14 @@
 # C# 7 kata
 
-A kata that helps you practice and discover the new language features of C# 7
+A kata that helps you practice and discover the [new language features of C# 7](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)
 
 **Kata** originally were teaching and training methods by which successful combat techniques were preserved and passed on. Practicing kata allowed a company of persons to engage in a struggle using a systematic approach, rather than as individuals in a disorderly manner. [source](https://en.wikipedia.org/wiki/Kata)
 
 ### Definition
+
+In this Kata we will learn how to use new features from C# 7 such as `out variables`, `ValueTuples`, `Pattern Matching`, `ref locals and returns`, `Local Functions`, `expression-bodied members`, `throw Expressions`, `Generalized async return types`, and `Numeric literal syntax improvements`.  Make sure to visit the links below for some really great content that will help you navigate these katas.
+
+**Note:**  All kata directions will be found in each of the corresponding .cs files.
 
 ### Requirements
 
@@ -14,7 +18,12 @@ A kata that helps you practice and discover the new language features of C# 7
 
 ### Success
 
+* All unit tests are green
+* All code has been converted to use the new syntax
+
 ### Solution
+
+The [solution branch](https://github.com/nickfloyd/csharp-seven-kata) has not been created yet.
 
 ### Additional reading on the new features in C# 7
 
