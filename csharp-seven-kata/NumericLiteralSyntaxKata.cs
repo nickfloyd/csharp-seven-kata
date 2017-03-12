@@ -40,7 +40,7 @@ namespace csharp_seven_kata
         public const int SixtyFourBitShiftFormat = 1 << 6;
 
         // KATA: Convert the long.MaxValue to a decimal representation using the "digit separator"
-        public const long LongMaxValue = long.MaxValue; //9,223,372,036,854,775,808
+        public const long LongMaxValue = long.MaxValue; //9,223,372,036,854,775,807
 
         // KATA: Convert the 100000000 to a decimal representation using the "digit separator"
         public const int OneMillionDollars = 100000000;
