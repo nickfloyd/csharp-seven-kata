@@ -52,7 +52,7 @@ namespace csharp_seven_kata_tests
         [TestMethod]
         public void Validate_OneMillionDollars()
         {
-            Assert.AreEqual(100_000_000, NumericLiteralSyntax.OneMillionDollars);
+            Assert.AreEqual(1_000_000, NumericLiteralSyntax.OneMillionDollars);
         }
     }
 }

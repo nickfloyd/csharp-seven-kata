@@ -15,35 +15,35 @@ namespace csharp_seven_kata
         // Note: Make sure to use the '0b' at the beginning of the constant value
         // Note: The digit separator can be used with decimal, float and double types
 
-        public const int OneDecimalFormat = 1;
-        public const int TwoDecimalFormat = 2;
-        public const int FourDecimalFormat = 4;
-        public const int EightDecimalFormat = 8;
-        public const int SixteenDecimalFormat = 16;
-        public const int ThirtyTwoDecimalFormat = 32;
-        public const int SixtyFourDecimalFormat = 64;
+        public const int OneDecimalFormat = 0b00000001;
+        public const int TwoDecimalFormat = 0b00000010;
+        public const int FourDecimalFormat = 0b00000100;
+        public const int EightDecimalFormat = 0b00001000;
+        public const int SixteenDecimalFormat = 0b00010000;
+        public const int ThirtyTwoDecimalFormat = 0b00100000;
+        public const int SixtyFourDecimalFormat = 0b01000000;
 
-        public const int OneHexFormat = 0x01;
-        public const int TwoHexFormat = 0x02;
-        public const int FourHexFormat = 0x04;
-        public const int EightHexFormat = 0x08;
-        public const int SixteenHexFormat = 0x10;
-        public const int ThirtyTwoHexFormat = 0x20;
-        public const int SixtyFourHexFormat = 0x40;
+        public const int OneHexFormat = 0b00000001;
+        public const int TwoHexFormat = 0b00000010;
+        public const int FourHexFormat = 0b00000100;
+        public const int EightHexFormat = 0b00001000;
+        public const int SixteenHexFormat = 0b00010000;
+        public const int ThirtyTwoHexFormat = 0b00100000;
+        public const int SixtyFourHexFormat = 0b01000000;
 
-        public const int OneBitShiftFormat = 1 << 0;
-        public const int TwoBitShiftFormat = 1 << 1;
-        public const int FourBitShiftFormat = 1 << 2;
-        public const int EightBitShiftFormat = 1 << 3;
-        public const int SixteenBitShiftFormat = 1 << 4;
-        public const int ThirtyTwoBitShiftFormat = 1 << 5;
-        public const int SixtyFourBitShiftFormat = 1 << 6;
+        public const int OneBitShiftFormat = 0b00000001;
+        public const int TwoBitShiftFormat = 0b00000010;
+        public const int FourBitShiftFormat = 0b00000100;
+        public const int EightBitShiftFormat = 0b00001000;
+        public const int SixteenBitShiftFormat = 0b00010000;
+        public const int ThirtyTwoBitShiftFormat = 0b00100000;
+        public const int SixtyFourBitShiftFormat = 0b01000000;
 
         // KATA: Convert the long.MaxValue to a decimal representation using the "digit separator"
-        public const long LongMaxValue = long.MaxValue; //9,223,372,036,854,775,807
+        public const long LongMaxValue = 9_223_372_036_854_775_807; //9,223,372,036,854,775,807
 
         // KATA: Convert the 100000000 to a decimal representation using the "digit separator"
-        public const int OneMillionDollars = 100000000;
+        public const int OneMillionDollars = 1_000_000;
 
     }
 }
