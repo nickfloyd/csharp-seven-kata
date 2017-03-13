@@ -11,7 +11,9 @@ namespace csharp_seven_kata_tests
         [ExpectedException(typeof(ArgumentNullException), "")]
         public void Validate_Property_Exception_Throw()
         {
-           var throwExpressionsKata = new ThrowExpressionsKata()
+            ISettings settings = new Settings();
+
+           var throwExpressionsKata = new ThrowExpressionsKata(settings)
             {
                 PropertyException = null
             };
@@ -21,7 +23,7 @@ namespace csharp_seven_kata_tests
         [ExpectedException(typeof(ArgumentNullException), "")]
         public void Validate_Initialization_Exception_Throw()
         {
-           var throwExpressionsKata = new ThrowExpressionsKata();
+           var throwExpressionsKata = new ThrowExpressionsKata(null);
         }
     }
 }
