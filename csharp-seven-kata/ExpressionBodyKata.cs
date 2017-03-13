@@ -10,25 +10,19 @@
     {
         // KATA: Write the following property using the Expression-bodied get / set accessors syntax
         private string expressionBody;
-        public string ExpressionBody {
-            get {
-                return expressionBody;
-            }
-            set {
-                expressionBody = value;
-            }
-        }
+		public string ExpressionBody
+		{
+			get => expressionBody;
+			set => expressionBody = value;
+		}
 
-        // KATA: Write the following constructor using the Expression-bodied syntax
-        public ExpressionBodyKata(string expressionBody) {
-            ExpressionBody = expressionBody;
-        }
+		// KATA: Write the following constructor using the Expression-bodied syntax
+		public ExpressionBodyKata(string expressionBody)  => ExpressionBody = expressionBody;
 
         // KATA: Write the following property using the Expression-bodied finalizer
         // Note: It should be called out that this class does not need or should implement a finalizer (destructor) but for the kata one has been added
-        ~ExpressionBodyKata() {
-            expressionBody = null;
-        }
+        ~ExpressionBodyKata() => expressionBody = null;
+        
         
     }
 }
