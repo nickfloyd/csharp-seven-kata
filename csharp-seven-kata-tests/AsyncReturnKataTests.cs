@@ -1,4 +1,3 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using csharp_seven_kata;
 using System.Threading.Tasks;
@@ -23,5 +22,20 @@ namespace csharp_seven_kata_tests
             Debug.WriteLine($"Widget processed in {sw.ElapsedMilliseconds}ms");
             Assert.AreEqual(result, "Widget processed");
         }
-    }
+
+		[TestMethod]
+		public async Task Validate_AsyncReturnValueTask()
+		{
+			var asyncReturnKata = new AsyncReturnKata();
+
+			var sw = new Stopwatch();
+
+			sw.Start();
+			var result = await asyncReturnKata.ProcessWidgetValueTask(1);
+			sw.Stop();
+
+			Debug.WriteLine($"Widget processed in {sw.ElapsedMilliseconds}ms");
+			Assert.AreEqual(result, "Widget processed");
+		}
+	}
 }

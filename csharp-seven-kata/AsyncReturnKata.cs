@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace csharp_seven_kata
 {
@@ -34,5 +33,11 @@ namespace csharp_seven_kata
             await Task.Delay(delay);
             return "Widget processed";
         }
-    }
+
+		public async ValueTask<string> ProcessWidgetValueTask(int delay)
+		{
+			await Task.Delay(delay);
+			return "Widget processed";
+		}
+	}
 }
