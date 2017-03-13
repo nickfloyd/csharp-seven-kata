@@ -4,12 +4,13 @@ namespace csharp_seven_kata
 {
     /*
      * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#pattern-matching
-     * Pattern matching is a feature that allows you to implement method dispatch on properties other than the type of an object. 
-     * You're probably already familiar with method dispatch based on the type of an object. 
-     * In Object Oriented programming, virtual and override methods provide language syntax to implement method dispatching based on an object's type. 
-     * Base and Derived classes provide different implementations. Pattern matching expressions extend this concept so that you can easily implement similar dispatch patterns for types and data elements that are not related through an inheritance hierarchy.
-     * 
-     * Pattern matching supports is expressions and switch expressions. 
+     * Pattern matching is a feature that allows you to implement method dispatch on properties other than the type of an object.
+     * You're probably already familiar with method dispatch based on the type of an object.
+     * In Object Oriented programming, virtual and override methods provide language syntax to implement method dispatching based on an object's type.
+     * Base and Derived classes provide different implementations. Pattern matching expressions extend this concept so that
+     * you can easily implement similar dispatch patterns for types and data elements that are not related through an inheritance hierarchy.
+     *
+     * Pattern matching supports is expressions and switch expressions.
      * Each enables inspecting an object and its properties to determine if that object satisfies the sought pattern. 
      * You use the when keyword to specify additional rules to the pattern.
      */
@@ -29,7 +30,7 @@ namespace csharp_seven_kata
 
         }
 
-        //KATA: Replace the conditional statement under the Moblin case with 2 separate cases where one uses 
+        // KATA: Replace the conditional statement under the Moblin case with 2 separate cases where one uses 
         // pattern matching to check to see if the color on the Moblin is "Red"
         public string PatternMatchingSwitch(ICreature creature) {
 

@@ -4,10 +4,10 @@ namespace csharp_seven_kata
 {
     /*
      * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#numeric-literal-syntax-improvements
-     Misreading numeric constants can make it harder to understand code when reading it for the first time. 
-     This often occurs when those numbers are used as bit masks or other symbolic rather than numeric values. 
-     C# 7 includes two new features to make it easier to write numbers in the most readable fashion for the intended use: binary literals, and digit separators.
-     For those times when you are creating bit masks, or whenever a binary representation of a number makes the most readable code, write that number in binary.
+     * Misreading numeric constants can make it harder to understand code when reading it for the first time.
+     * This often occurs when those numbers are used as bit masks or other symbolic rather than numeric values.
+     * C# 7 includes two new features to make it easier to write numbers in the most readable fashion for the intended use: binary literals, and digit separators.
+     * For those times when you are creating bit masks, or whenever a binary representation of a number makes the most readable code, write that number in binary.
      */
     public class NumericLiteralSyntax
     {
