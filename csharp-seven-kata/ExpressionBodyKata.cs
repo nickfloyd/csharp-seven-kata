@@ -2,9 +2,9 @@
 {
     /*
      * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#more-expression-bodied-members
-        C# 6 introduced expression-bodied members for member functions, and read-only properties. 
-        C# 7 expands the allowed members that can be implemented as expressions. 
-        In C# 7, you can implement constructors, finalizers, and get and set accessors on properties and indexers.
+     * C# 6 introduced expression-bodied members for member functions, and read-only properties.
+     * C# 7 expands the allowed members that can be implemented as expressions.
+     * In C# 7, you can implement constructors, finalizers, and get and set accessors on properties and indexers.
      */
     public class ExpressionBodyKata
     {

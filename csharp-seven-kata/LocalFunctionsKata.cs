@@ -7,18 +7,18 @@ namespace csharp_seven_kata
 
     /*
      * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#local-functions
-        Many designs for classes include methods that are called from only one location. 
-        These additional private methods keep each method small and focused. 
-        However, they can make it harder to understand a class when reading it the first time. 
-        These methods must be understood outside of the context of the single calling location.
-        
-        For those designs, local functions enable you to declare methods inside the context of another method.
-        This makes it easier for readers of the class to see that the local method is only called from the context in which is it declared.
-        
-        There are two very common use cases for local functions: public iterator methods and public async methods. 
-        Both types of methods generate code that reports errors later than programmers might expect. 
-        In the case of iterator methods, any exceptions are observed only when calling code that enumerates the returned sequence. 
-        In the case of async methods, any exceptions are only observed when the returned Task is awaited.
+     * Many designs for classes include methods that are called from only one location.
+     * These additional private methods keep each method small and focused.
+     * However, they can make it harder to understand a class when reading it the first time.
+     * These methods must be understood outside of the context of the single calling location.
+     *
+     * For those designs, local functions enable you to declare methods inside the context of another method.
+     * This makes it easier for readers of the class to see that the local method is only called from the context in which is it declared.
+     *
+     * There are two very common use cases for local functions: public iterator methods and public async methods.
+     * Both types of methods generate code that reports errors later than programmers might expect.
+     * In the case of iterator methods, any exceptions are observed only when calling code that enumerates the returned sequence.
+     * In the case of async methods, any exceptions are only observed when the returned Task is awaited.
      */
     public class LocalFunctionsKata
     {
