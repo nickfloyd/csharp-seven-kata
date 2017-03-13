@@ -12,9 +12,8 @@ namespace csharp_seven_kata
         // KATA: Convert the method body to use an inline out varible 
         // Note: When declaring the inline out varible you can use either an implicit (var) or explicit (int) type
         public int ParseInteger(string val) {
-            int parsedInt;
-
-            if (!int.TryParse(val, out parsedInt))
+           
+            if (!int.TryParse(val, out var parsedInt))
             {
                 parsedInt = int.MinValue;
             }
