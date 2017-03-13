@@ -31,13 +31,8 @@ namespace csharp_seven_kata
         private string[] StringArr= new string[] { "one", "two", "three", "four"};
         private int[] IntArr = new int[] {1,2,3};
 
-        public int GetStringCount() {
-            return StringArr.Length;
-        }
-
-        public int GetIntCount()
-        {
-            return IntArr.Length;
+        public (int StringCount, int IntCount) GetCounts() {
+            return (StringArr.Length, IntArr.Length);
         }
 
 
