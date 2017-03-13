@@ -6,7 +6,7 @@ namespace csharp_seven_kata
 {
 
     /*
-     * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#more-expression-bodied-members
+     * From: https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7#local-functions
         Many designs for classes include methods that are called from only one location. 
         These additional private methods keep each method small and focused. 
         However, they can make it harder to understand a class when reading it the first time. 
