@@ -34,10 +34,10 @@ namespace csharp_seven_kata
             return "Widget processed";
         }
 
-		public async ValueTask<string> ProcessWidgetValueTask(int delay)
-		{
-			await Task.Delay(delay);
-			return "Widget processed";
-		}
-	}
+        public async ValueTask<string> ProcessWidgetValueTask(int delay)
+        {
+            await Task.Delay(delay);
+            return "Widget processed";
+        }
+    }
 }
