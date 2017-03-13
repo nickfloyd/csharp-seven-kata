@@ -19,13 +19,7 @@ namespace csharp_seven_kata
         // KATA: Replace the "as" convention and null check with the "is" syntax
         public string PatternMatchingIsExpression(object val) {
 
-            var str = val as string;
-
-            if (str != null) {
-                str += "Bar";
-            }
-
-            return str;
+            return (val is string str) ? str += "Bar" : string.Empty;
 
         }
 
@@ -42,14 +36,11 @@ namespace csharp_seven_kata
                 case Octorok o:
                     creatureName = "Octorok";
                     break;
+                case Moblin m when m.Color == "Red":
+                    creatureName = "Red Moblin";
+                    break;
                 case Moblin m:
-                    if (m.Color == "Red")
-                    {
-                        creatureName = "Red Moblin";
-                    }
-                    else {
-                        creatureName = "Moblin";
-                    }
+                   creatureName = "Moblin";
                     break;
                 default:
                     creatureName = "Unknown Creature";
