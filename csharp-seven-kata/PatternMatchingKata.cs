@@ -18,6 +18,7 @@ namespace csharp_seven_kata
     {
 
         // KATA: Replace the "as" convention and null check with the "is" syntax
+        // Note: Should be able to accomplish without the use of "as," "ToString()," "switch" or casting.
         public string PatternMatchingIsExpression(object val) {
 
             var str = val as string;
