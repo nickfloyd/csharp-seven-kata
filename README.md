@@ -22,7 +22,7 @@ In this Kata we will learn how to use new features from C# 7 such as `out variab
 * Run the tests to verify success!
   * Visual Studio 2017 
     * Test Explorer > Run All
-  * .NET Core CLI:
+  * .NET Core CLI
     * Navigate to `\csharp-seven-kata\csharp-seven-kata-tests\`
     * `dotnet restore` (first time)
     * `dotnet test`
