@@ -11,8 +11,9 @@ namespace csharp_seven_kata
      */
     public class LocalReferencesKata
     {
-        //KATA: Replace _shootingStar.SetMessage(message) using ref locals and returns with GetMessageByRef()
-        //Note: You'll need to modify ShootingStar.GetMessageByRef() along with LocalReferencesKata.SetMessage(string message)
+        //KATA: Use the ref feature to set the message on _shootingStar without using _shootingStar.SetMessage(message).
+        //_shootingStar.GetMessageByRef() has been provided as a starting point. Modify GetMessageByRef() to return a 
+        //reference to _message that can be assigned from LocalReferencesKata.SetMessage().
         public void SetMessage(string message)
         {
             _shootingStar.SetMessage(message);
